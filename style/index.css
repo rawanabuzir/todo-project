@@ -100,7 +100,7 @@ input[type="submit"]:hover {
     height: 50px;
     background-color: #1b5e20;
     color: #9a4141;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
