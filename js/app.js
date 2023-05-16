@@ -1,4 +1,5 @@
 let UserName, UserAge, WelcomingMsg, UserGender;
+
 UserName = prompt("enter your name please ");
 UserGender = prompt("enter your gender please");
 UserAge = prompt("enter your age please ");
@@ -6,13 +7,14 @@ CheckAge(UserAge);
 WelcomingMsg = confirm("Do you wants to skip the welcoming message?")
 Welcomingfunction(WelcomingMsg);
 //////////////////////////////////////////////////////// #2
-const Answers = [];
+
 function AskQuestion(Question) {
     let QusPrompt = prompt(Question);
     if (QusPrompt.toUpperCase === "YES" || QusPrompt.toUpperCase === "NO") return QPrompt;
     if (QusPrompt == "") return "invalid";
     else return QusPrompt;
 }
+const Answers = [];
 Answers[0] = AskQuestion(" Do you like my website?");
 Answers[1] = AskQuestion("Do you have hobbies  ?");
 Answers[2] = AskQuestion("Do you have a car ?"); print_Answers();
