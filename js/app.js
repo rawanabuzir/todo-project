@@ -1,3 +1,4 @@
+"use strict";
 let UserName, UserAge, WelcomingMsg, UserGender;
 
 UserName = prompt("enter your name please ");
